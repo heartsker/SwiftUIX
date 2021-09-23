@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import SwiftUIX
 
 class UIConstantsTests: XCTestCase {
 
@@ -17,16 +18,12 @@ class UIConstantsTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+	func testScreenRatio() throws {
+		let screenRatio1 = screen(ratio: 0.5)
+		XCTAssertEqual(screen_half, screenRatio1, "Incorrect size [ratio: 0.5]")
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+		let screenRatio2 = screen(ratio: 0.8)
+		XCTAssertEqual(screen.width * 0.8, screenRatio2.width, "Incorrect width [ratio: 0.8]")
+		XCTAssertEqual(screen.height * 0.8, screenRatio2.height, "Incorrect width [ratio: 0.8]")
+	}
 }
