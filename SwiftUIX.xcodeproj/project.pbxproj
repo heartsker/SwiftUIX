@@ -14,6 +14,7 @@
 		A99ED94926FC658B00C79E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99ED94826FC658B00C79E26 /* ContentView.swift */; };
 		A99ED94B26FC658E00C79E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99ED94A26FC658E00C79E26 /* Assets.xcassets */; };
 		A99ED94E26FC658E00C79E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99ED94D26FC658E00C79E26 /* Preview Assets.xcassets */; };
+		A9AC43DF26FC67FA00FAAC94 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AC43DE26FC67FA00FAAC94 /* UIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		A99ED94A26FC658E00C79E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A99ED94D26FC658E00C79E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A99ED94F26FC658E00C79E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AC43DE26FC67FA00FAAC94 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				A99ED92926FC651500C79E26 /* SwiftUIX.h */,
 				A99ED92A26FC651500C79E26 /* Info.plist */,
+				A9AC43DE26FC67FA00FAAC94 /* UIConstants.swift */,
 			);
 			path = SwiftUIX;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				TargetAttributes = {
 					A99ED92526FC651500C79E26 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					A99ED92E26FC651500C79E26 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -263,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AC43DF26FC67FA00FAAC94 /* UIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +424,7 @@
 		A99ED93B26FC651500C79E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XHRWYM4T65;
@@ -435,6 +441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = heartsker.SwiftUIX;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,6 +450,7 @@
 		A99ED93C26FC651500C79E26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XHRWYM4T65;
@@ -467,6 +475,7 @@
 		A99ED93E26FC651500C79E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHRWYM4T65;
 				INFOPLIST_FILE = SwiftUIXTests/Info.plist;
@@ -485,6 +494,7 @@
 		A99ED93F26FC651500C79E26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHRWYM4T65;
 				INFOPLIST_FILE = SwiftUIXTests/Info.plist;
