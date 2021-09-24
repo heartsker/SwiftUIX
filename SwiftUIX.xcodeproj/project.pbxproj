@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9426ADB26FE04F60055A32A /* Glassmorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9426ADA26FE04F60055A32A /* Glassmorphism.swift */; };
 		A99ED93026FC651500C79E26 /* SwiftUIX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99ED92626FC651500C79E26 /* SwiftUIX.framework */; };
 		A99ED93726FC651500C79E26 /* SwiftUIX.h in Headers */ = {isa = PBXBuildFile; fileRef = A99ED92926FC651500C79E26 /* SwiftUIX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A99ED94726FC658B00C79E26 /* SwiftUIXExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99ED94626FC658B00C79E26 /* SwiftUIXExampleApp.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9426ADA26FE04F60055A32A /* Glassmorphism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glassmorphism.swift; sourceTree = "<group>"; };
 		A99ED92626FC651500C79E26 /* SwiftUIX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99ED92926FC651500C79E26 /* SwiftUIX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUIX.h; sourceTree = "<group>"; };
 		A99ED92A26FC651500C79E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9426ADC26FE05020055A32A /* ViewExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				A9426ADA26FE04F60055A32A /* Glassmorphism.swift */,
+			);
+			path = ViewExtentions;
+			sourceTree = "<group>";
+		};
 		A99ED91C26FC651500C79E26 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 				A99ED92926FC651500C79E26 /* SwiftUIX.h */,
 				A99ED92A26FC651500C79E26 /* Info.plist */,
 				A9AC43DE26FC67FA00FAAC94 /* UIConstants.swift */,
+				A9426ADC26FE05020055A32A /* ViewExtentions */,
 			);
 			path = SwiftUIX;
 			sourceTree = "<group>";
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AC43DF26FC67FA00FAAC94 /* UIConstants.swift in Sources */,
+				A9426ADB26FE04F60055A32A /* Glassmorphism.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
