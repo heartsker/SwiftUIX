@@ -16,6 +16,8 @@
 		A99ED94E26FC658E00C79E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99ED94D26FC658E00C79E26 /* Preview Assets.xcassets */; };
 		A9AC43DF26FC67FA00FAAC94 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AC43DE26FC67FA00FAAC94 /* UIConstants.swift */; };
 		A9AC43E126FC6AB300FAAC94 /* UIConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AC43E026FC6AB300FAAC94 /* UIConstantsTests.swift */; };
+		A9E23D9726FF766D00C1D6BE /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E23D9626FF766D00C1D6BE /* Angle.swift */; };
+		A9E23D9926FF768800C1D6BE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E23D9826FF768800C1D6BE /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		A99ED94F26FC658E00C79E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9AC43DE26FC67FA00FAAC94 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		A9AC43E026FC6AB300FAAC94 /* UIConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstantsTests.swift; sourceTree = "<group>"; };
+		A9E23D9626FF766D00C1D6BE /* Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angle.swift; sourceTree = "<group>"; };
+		A9E23D9826FF768800C1D6BE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				A99ED92926FC651500C79E26 /* SwiftUIX.h */,
 				A99ED92A26FC651500C79E26 /* Info.plist */,
 				A9AC43DE26FC67FA00FAAC94 /* UIConstants.swift */,
+				A9E23D9826FF768800C1D6BE /* Color.swift */,
+				A9E23D9626FF766D00C1D6BE /* Angle.swift */,
 				A9426ADC26FE05020055A32A /* ViewExtentions */,
 			);
 			path = SwiftUIX;
@@ -279,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AC43DF26FC67FA00FAAC94 /* UIConstants.swift in Sources */,
+				A9E23D9926FF768800C1D6BE /* Color.swift in Sources */,
+				A9E23D9726FF766D00C1D6BE /* Angle.swift in Sources */,
 				A9426ADB26FE04F60055A32A /* Glassmorphism.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

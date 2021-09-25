@@ -29,12 +29,3 @@ public let shadowRadiusSmall: CGFloat = 5.0
 public let spacingBig: CGFloat = screen.width / 5
 public let spacingMedium: CGFloat = screen.width / 10
 public let spacingSmall: CGFloat = screen.width / 15
-
-// MARK: - Angle
-public func angle(_ derees: Double, CW: Bool = false) -> Angle {
-	Angle(degrees: derees * (CW ? -1 : 1))
-}
-
-// MARK: - Color sets
-public let prettyColors: [Color] = [.blue, .orange, .pink, .purple, .white]
-public let allColors: [Color] = [.black, .blue, .gray, .green, .orange, .pink, .purple, .red, .white]
